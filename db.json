@@ -1,0 +1,84 @@
+{
+    "list":[
+        {
+            "id": "0",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/i/p/iphone_13_green_pdp_image_position-1a__wwen_2_1_2.jpg",     
+            "productName": "Iphone 13",
+            "price": 4199,
+            "stock": 800,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam hic dicta veniam dolor, ea laudantium sequi illum. Quibusdam animi repellat eum hic id nam, nesciunt, iusto consequatur ab corporis velit!"
+        },
+        {
+            "id": "1",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/a/p/apple_watch_se_gps_44mm_space_gray_aluminum_midnight_sport_band_34fr_screen__usen-0_2.jpg",     
+            "productName": "Apple watch",
+            "price": 1544,
+            "stock": 550,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam hic dicta veniam dolor, ea laudantium sequi illum. Quibusdam animi repellat eum hic id nam, nesciunt, iusto consequatur ab corporis velit!"
+        },
+        {
+            "id": "2",
+            "url":"https://istyle.ro/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/m/a/macbook_pro_13in_spgry_pdp_image_position-1_m1_chip__usen_8_2_5_1_4_1.jpg",     
+            "productName":"Macbook Pro",
+            "price":6399,
+            "stock": 750,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam hic dicta veniam dolor, ea laudantium sequi illum. Quibusdam animi repellat eum hic id nam, nesciunt, iusto consequatur ab corporis velit!"
+        },
+        {
+            "id": "3",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/m/j/mjva3mga-1_1_1_2.jpg",     
+            "productName": "iMac",
+            "price": 5999,
+            "stock": 980,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        },
+        {   
+            "id": "4",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/400x400/beff4985b56e3afdbeabfc89641a4582/i/p/ipad-air-select-wifi-blue-202009_3.jpg",     
+            "productName": "iPad Air",
+            "price": 2999,
+            "stock": 420,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        },
+        {
+            "id": "5",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/m/w/mwp22.jpeg",     
+            "productName": "AirPods Pro",
+            "price": 1199,
+            "stock": 120,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        },
+        {
+            "id": "6",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/a/i/airtag_pdp_image_position-1__wwen_4.jpg",     
+            "productName": "AirTag",
+            "price": 179,
+            "stock": 330,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        },
+        {
+            "id": "7",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/a/p/apple-pencil-2018_1.jpg",     
+            "productName": "Apple pencil",
+            "price": 559,
+            "stock": 660,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        },
+        {
+            "id": "8",
+            "url":"https://istyle.ro/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/i/p/ipad_10.2_inch_wi-fi_space_gray_pdp_image_position-1__wwen_2.jpg",     
+            "productName":"iPad",
+            "price": 1999,
+            "stock": 540,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        },
+        {
+            "id": "9",
+            "url": "https://istyle.ro/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/w/w/wwen_ipad_pro_2nd_generation_gps_silver_aluminum_11in_pdp_1a_2.jpg",     
+            "productName": "iPad Pro",
+            "price": 4399,
+            "stock": 930,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus aperiam, laboriosam corrupti soluta sapiente ratione ex assumenda dolor reprehenderit consequatur debitis impedit cum ea nulla accusantium omnis aspernatur. Quibusdam."
+        }
+    ]
+}

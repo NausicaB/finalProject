@@ -1,0 +1,16 @@
+#photo {
+    object-fit: contain;
+    width: 500px;
+    height: 600px;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#quantity {
+    margin-bottom: 10px;
+}
+

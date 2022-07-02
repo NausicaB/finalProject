@@ -32,11 +32,16 @@ function draw() {
 }
 
 function addToCart() {
-    
+    let basketQuantity = 0;
     let quantity = document.querySelector('#quantity').value;
+    const basketProduct = getCartItem(item.id);
+    if (basketProduct !== false) {
+        basketQuantity = basketProduct.quantity;
+    }
+    console.log(basketProduct); 
     quantity = Number(quantity);
     
-    if (quantity <= 0 || quantity > item.stock || isNaN(quantity)) {
+    if (quantity <= 0 || quantity + basketQuantity > item.stock || isNaN(quantity) ) {
         document.querySelector('.alert.alert-danger').innerHTML =
             `Please input the correct quantity`;
         document.querySelector('.alert.alert-danger').classList.remove('hidden');
@@ -77,4 +82,21 @@ function addToCart() {
     }
 
     localStorage.setItem("basket", JSON.stringify(basket));
+}
+
+function getCartItem(productId) {
+    let basket = localStorage.getItem("basket");
+    if (basket === null) {
+        basket = [];
+    } else {
+        basket = JSON.parse(basket);
+    }
+    console.log(basket);
+    for (let p of basket) {
+        console.log(p);
+        if (p.idProduct === productId) {
+            return p;
+        }
+    }
+    return false;
 }

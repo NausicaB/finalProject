@@ -80,6 +80,7 @@ function decrease(idx) {
         elem = elem - 1;
         document.querySelectorAll('.qtyValue')[idx].innerHTML = elem;
         basketItems[idx].quantity = elem;
+        localStorage.setItem('basket', JSON.stringify(basketItems));
     } 
     updateBasket();
 }
@@ -91,6 +92,7 @@ function increase(idx) {
     document.querySelectorAll('.qtyValue')[idx].innerHTML = elem;
     basketItems[idx].quantity = elem;
     updateBasket()
+    localStorage.setItem('basket', JSON.stringify(basketItems));
 }
 
 function remove(idx) {
@@ -110,7 +112,7 @@ function remove(idx) {
             document.querySelector('.summary').remove();
         }
     }
-    localStorage.removeItem('basket', 'idx')
+    localStorage.setItem('basket', JSON.stringify(basketItems));
     updateBasket()
 }
 

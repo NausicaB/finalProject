@@ -19,7 +19,7 @@ function updateBasket() {
     let thead = '';
     let count = 0;
     
-    if (basketItems === null) {
+    if (basketItems.length === 0) {
         document.querySelector('.tableBody').innerHTML = `
             Your cart is empthy. <br>
             Click <a href="index.html?id=index">here</a> to continue shopping
